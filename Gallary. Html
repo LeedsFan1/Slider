@@ -1,0 +1,19 @@
+<div id="Pictures">
+  <img src="images/test/image0.jpg" alt="" title="" id="slideShow" />
+
+  <div id="imgCaption">&nbsp;</div> <!-- imgCaption will be targeted via JavaScript -->
+  <div id="slideShowLinks">
+    <a href="#title" id="prevLink" class="linkSpace"> &laquo<div id="Pictures">
+  <img src="images/test/image0.jpg" alt="" title="" id="slideShow" />
+
+  <div id="imgCaption">&nbsp;</div> <!-- imgCaption will be targeted via JavaScript -->
+  <div id="slideShowLinks">
+    <a href="#title" id="prevLink" class="linkSpace"> &laquo; PreviouPreviouss </a>
+    <a href="#title" id="nextLink" class="linkSpace"> Next &raquo;</a>
+    <!--Set an ID that is targeted  -->
+  </div>
+</div>; Previous </a>
+    <a href="#title" id="nextLink" class="linkSpace"> Next &raquo;</a>
+    <!--Set an ID that is targeted  -->
+  </div>
+</div>
