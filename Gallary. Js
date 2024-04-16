@@ -1,1 +1,24 @@
+var currImg = 0;
+var captionText = new Array(
+  "Tree in Water",
+  "Waterfall",
+  "Love stones",
+  "Tree on hill",
+  "Steps",
+  "Planet",
+  "River",
+  "Beach"
+);
 
+function slideShow() {
+  document.getElementById("imgCaption").innerHTML = captionText[0];
+  document.getElementById("prevLink").onclick = previousImg;
+  document.getElementById("nextLink").onclick = nextImg;
+}
+
+function previousImg() {
+  newImg(-1);
+}
+
+function nextImg() {
+  newImg(1);
